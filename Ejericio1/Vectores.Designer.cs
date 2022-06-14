@@ -36,7 +36,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(399, 119);
+            this.button1.Location = new System.Drawing.Point(587, 250);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(152, 56);
             this.button1.TabIndex = 0;
@@ -55,7 +55,7 @@
             // 
             // MatrizButton
             // 
-            this.MatrizButton.Location = new System.Drawing.Point(399, 214);
+            this.MatrizButton.Location = new System.Drawing.Point(399, 244);
             this.MatrizButton.Name = "MatrizButton";
             this.MatrizButton.Size = new System.Drawing.Size(152, 62);
             this.MatrizButton.TabIndex = 2;

@@ -47,6 +47,12 @@ namespace Ejericio1
             Altura = altura;
         }
 
+        public Perro(string nombre)
+        {
+            Nombre = nombre;
+        }
+
+
         //metodos
         public decimal DevuelveAltura()
         {
@@ -57,5 +63,7 @@ namespace Ejericio1
         {
             return nombre + " comerá "+comida;
         }
+
+       
     }
 }

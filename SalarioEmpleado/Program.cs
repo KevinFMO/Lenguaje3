@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Ejericio1
+namespace SalarioEmpleado
 {
     internal static class Program
     {
@@ -16,9 +16,7 @@ namespace Ejericio1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FuncionesDataTime());
-            
+            Application.Run(new Form1());
         }
     }
-
 }

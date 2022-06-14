@@ -23,11 +23,11 @@ namespace Ejericio1
 
             //MessageBox.Show("Año: " +fecha.Year,"Formato de fecha", MessageBoxButtons.OK,MessageBoxIcon.Information);
             // MessageBox.Show("Mes: " + fecha.Month, "Formato de fecha", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            //  MessageBox.Show("Día: " + fecha.Day, "Formato de fecha", MessageBoxButtons.OK, MessageBoxIcon.Information);
+              MessageBox.Show("Día: " + fecha.Day, "Formato de fecha", MessageBoxButtons.OK, MessageBoxIcon.Information);
             // MessageBox.Show("Día: " + fecha.DayOfWeek, "Formato de fecha", MessageBoxButtons.OK, MessageBoxIcon.Information);
             // MessageBox.Show(fecha.AddDays(-3).ToLongDateString(), "Formato de fecha", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-            MessageBox.Show(DevuelveEdadPersona(fecha).ToString(), "Edad", MessageBoxButtons.OK,MessageBoxIcon.Information);
+           // MessageBox.Show(DevuelveEdadPersona(fecha).ToString(), "Edad", MessageBoxButtons.OK,MessageBoxIcon.Information);
 
 
         }
